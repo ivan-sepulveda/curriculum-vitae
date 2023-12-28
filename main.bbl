@@ -1,0 +1,132 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 3.2 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated by
+% biber as required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+
+\refsection{0}
+  \datalist[entry]{nty/global//global/global}
+    \entry{Chavez_2023}{article}{}
+      \name{author}{4}{}{%
+        {{hash=187ffdea95ddfcf8b3c1584a53ffcb01}{%
+           family={Chavez},
+           familyi={C\bibinitperiod},
+           given={C.\bibnamedelimi T.},
+           giveni={C\bibinitperiod\bibinitdelim T\bibinitperiod}}}%
+        {{hash=6b6f4cb29290b32a3d860ec788ace0e6}{%
+           family={Egly},
+           familyi={E\bibinitperiod},
+           given={A.},
+           giveni={A\bibinitperiod}}}%
+        {{hash=e7215dbd91bd7384707fee8b64006960}{%
+           family={Sepulveda},
+           familyi={S\bibinitperiod},
+           given={I.},
+           giveni={I\bibinitperiod}}}%
+        {{hash=9555e08b46eeaa00d29b2c5c28a79e0a}{%
+           family={Wessel},
+           familyi={W\bibinitperiod},
+           given={F.\bibnamedelimi J.},
+           giveni={F\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
+      }
+      \strng{namehash}{a64e55c83797038cbd0a0402737b958b}
+      \strng{fullhash}{98a9bf2e2fd71ba625439fb46e286e93}
+      \strng{bibnamehash}{a64e55c83797038cbd0a0402737b958b}
+      \strng{authorbibnamehash}{a64e55c83797038cbd0a0402737b958b}
+      \strng{authornamehash}{a64e55c83797038cbd0a0402737b958b}
+      \strng{authorfullhash}{98a9bf2e2fd71ba625439fb46e286e93}
+      \field{sortinit}{C}
+      \field{sortinithash}{4d103a86280481745c9c897c925753c0}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{0034-6748}
+      \field{journaltitle}{Review of Scientific Instruments}
+      \field{month}{02}
+      \field{number}{2}
+      \field{title}{{Measurement of 2D density profiles using a second-harmonic, dispersion interferometer}}
+      \field{volume}{94}
+      \field{year}{2023}
+      \true{nocite}
+      \field{pages}{023503}
+      \range{pages}{1}
+      \verb{urlraw}
+      \verb https://doi.org/10.1063/5.0119896
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.1063/5.0119896
+      \endverb
+    \endentry
+    \entry{Nikolic_2021}{article}{}
+      \name{author}{5}{}{%
+        {{hash=d3df1498d69e78aaacc3ff44063ca801}{%
+           family={Nikolic},
+           familyi={N\bibinitperiod},
+           given={M.},
+           giveni={M\bibinitperiod}}}%
+        {{hash=e7215dbd91bd7384707fee8b64006960}{%
+           family={Sepulveda},
+           familyi={S\bibinitperiod},
+           given={I.},
+           giveni={I\bibinitperiod}}}%
+        {{hash=bb66bed957519b77fabb352b06947e45}{%
+           family={Gonzalez},
+           familyi={G\bibinitperiod},
+           given={C.},
+           giveni={C\bibinitperiod}}}%
+        {{hash=88498842c0f623bb7c3320a182604967}{%
+           family={Khogeer},
+           familyi={K\bibinitperiod},
+           given={N.},
+           giveni={N\bibinitperiod}}}%
+        {{hash=0c55d4651dce46cd6892ec11841c635d}{%
+           family={Fernandez-Monteith},
+           familyi={F\bibinithyphendelim M\bibinitperiod},
+           given={M.},
+           giveni={M\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {IOP Publishing}%
+      }
+      \strng{namehash}{996bfe414b6b1b72841dd4f1fd68a340}
+      \strng{fullhash}{2abb26d888f814be60a4fe0feeff6fd4}
+      \strng{bibnamehash}{996bfe414b6b1b72841dd4f1fd68a340}
+      \strng{authorbibnamehash}{996bfe414b6b1b72841dd4f1fd68a340}
+      \strng{authornamehash}{996bfe414b6b1b72841dd4f1fd68a340}
+      \strng{authorfullhash}{2abb26d888f814be60a4fe0feeff6fd4}
+      \field{sortinit}{N}
+      \field{sortinithash}{22369a73d5f88983a108b63f07f37084}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Journal of Physics D: Applied Physics}
+      \field{month}{04}
+      \field{number}{27}
+      \field{title}{Applicability of optical emission spectroscopy techniques for characterization of Ar and Ar/O2 discharges}
+      \field{volume}{54}
+      \field{year}{2021}
+      \true{nocite}
+      \field{pages}{275203}
+      \range{pages}{1}
+      \verb{urlraw}
+      \verb https://dx.doi.org/10.1088/1361-6463/abf61c
+      \endverb
+      \verb{url}
+      \verb https://dx.doi.org/10.1088/1361-6463/abf61c
+      \endverb
+    \endentry
+  \enddatalist
+\endrefsection
+\endinput
+
