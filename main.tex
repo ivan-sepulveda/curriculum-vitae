@@ -32,17 +32,22 @@
   
 \setlength{\parindent}{0pt}
 
+\newenvironment{myitemize}
+{ \begin{itemize}[label={--}, leftmargin=*]
+    \setlength{\itemsep}{0pt}
+    \setlength{\parskip}{0pt}
+    \setlength{\parsep}{0pt}     }
+{ \end{itemize}                  } 
+
 \begin{document}
 
 
 \section*{Education}
 \vspace{-6.5mm} % Adjust the value as needed to reduce the space above the line
 \noindent\makebox[\linewidth]{\rule{\textwidth}{0.4pt}}
-\\
 \textbf{University of San Francisco} \hfill Graduated August 2019 \\
 Bachelor of Science - Physics \hfill GPA: 3.05
 
-\noindent\makebox[\linewidth]{\rule{\textwidth}{0.4pt}}
 
 
 \section*{Experience}
@@ -52,24 +57,66 @@ Bachelor of Science - Physics \hfill GPA: 3.05
 
 \subsection*{Solar Mosaic LLC - Oakland, CA \hfill \normalfont{\textit{June 2021 - Present} } }
 
-In the `article' style, the document may be divided up
-into sections, subsections and subsubsections, and each
-can be given a title, printed in a boldface font,
-simply by issuing the appropriate command.
+\begin{myitemize}
+\item Identify performance trends, monitor risk KPI’s, and conduct loan-level analysis to isolate causes for variances between risk indicators and expected performance
+\item Establish and maintain a feedback loop with credit policy and operations to enhance credit quality and balance loan origination volumes for a growing portfolio
+\item Manage and support monthly and ad-hoc presentations regarding asset performance
+\end{myitemize}
 
-\subsection*{Solar Mosaic LLC - Oakland, CA \hfill \normalfont{\textit{June 2021 - Present} } }
+\subsection*{L-Egant Solutions, LLC - Irvine, CA \hfill \normalfont{\textit{October 2019 - December 2022} } }
 
-In the `article' style, the document may be divided up
-into sections, subsections and subsubsections, and each
-can be given a title, printed in a boldface font,
-simply by issuing the appropriate command.
+\begin{myitemize}
+\item Produced software tools providing real-time video capture/streaming
+\item Created video data transformation utilities (i.e. statistical representations
+\item Developed methods to analyze, compile, and compare raw image data 
 
-\subsection*{Solar Mosaic LLC - Oakland, CA \hfill \normalfont{\textit{June 2021 - Present} } }
+\end{myitemize}
 
-In the `article' style, the document may be divided up
-into sections, subsections and subsubsections, and each
-can be given a title, printed in a boldface font,
-simply by issuing the appropriate command.
+\subsection*{Mechanics Bank Auto Finance - Irvine, CA \hfill \normalfont{\textit{June 2021 - Present} } }
+
+\begin{myitemize}
+\item Assisting in the development and ongoing analysis of servicing strategies
+\item Developing, designing and analyzing portfolio trends and assessing risk of those trends
+\item Producing and analyzing risk, operational, demographic and other reports as necessary
+\end{myitemize}
+
+
+\subsection*{Freelance - Computer Science Tutor \hfill \normalfont{\textit{June 2021 - Present} } }
+
+\begin{myitemize}
+\item Tutored a fifth-grade student in basic Computer Science  principles, promoting computational thinking and problem-solving skills
+\item Developed engaging modules to introduce programming and algorithms, sparking early interest in Computer Science
+\end{myitemize}
+
+\section*{Research}
+\vspace{-3mm} % Adjust the value as needed to reduce the space above the line
+\hrule
+\vspace{3mm} % Adjust the value as needed to reduce the space above the line
+
+\subsection*{Plasma Characterization \hfill \normalfont{\textit{June 2021 - Present} } }
+
+\begin{myitemize}
+\item Wrote a Monte-Carlo Python script that simulates electrons propagating through Argon
+plasma, tracking their position, energy, and collisions
+\item Utilize information gathered to obtain ideal plasma etching parameters
+\end{myitemize}
+
+\subsection*{Rideshare/Transportation Modeling \hfill \normalfont{\textit{October 2019 - December 2022} } }
+
+\begin{myitemize}
+\item Built a dynamic model of rideshare prices by day of the week based on Uber data
+\item Integrated real public transit data into model as a consumer option
+\end{myitemize}
+
+\subsection*{Electron Emission Modeling \hfill \normalfont{\textit{June 2021 - Present} } }
+
+\begin{myitemize}
+\item Used COMSOL Multiphysics to develop a simulation of a femtosecond laser releasing
+pulses of light at a sharp metal alloy tip
+\item Experimented with parameters such as heat, alloy composition, and pulse length
+\end{myitemize}
+
+
 
 \section*{Relevant Coursework}
 \hrule
