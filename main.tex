@@ -6,6 +6,7 @@
 \usepackage[backend=biber]{biblatex} % or backend=bibtex
 
 \usepackage{fontawesome} % Include the package at the beginning of your document
+\usepackage[super]{nth}
 
 \DefineBibliographyStrings{english}{url={\textsc{url}}}
 
@@ -67,7 +68,7 @@ Bachelor of Science - Physics \hfill GPA: 3.05
 
 \begin{myitemize}
 \item Produced software tools providing real-time video capture/streaming
-\item Created video data transformation utilities (i.e. statistical representations
+\item Created video data transformation utilities (e.g. statistical representations)
 \item Developed methods to analyze, compile, and compare raw image data 
 
 \end{myitemize}
@@ -96,9 +97,9 @@ Bachelor of Science - Physics \hfill GPA: 3.05
 \subsection*{Plasma Characterization \hfill \normalfont{\textit{June 2021 - Present} } }
 
 \begin{myitemize}
-\item Wrote a Monte-Carlo Python script that simulates electrons propagating through Argon
-plasma, tracking their position, energy, and collisions
-\item Utilize information gathered to obtain ideal plasma etching parameters
+\item Developed and implemented a two-dimensional Monte Carlo simulation to derive the Electron Energy Distribution Function (EEDF) in low-temperature plasma, focusing on argon gas
+\item Calculated electron motion and collision dynamics under varied conditions using collision theory, significantly improving the accuracy of plasma behavior predictions
+\item Leveraged a suite of Python libraries for robust simulation, analysis, including \texttt{numpy, pandas, scipy, statistics, matplotlib and mayavi}
 \end{myitemize}
 
 \subsection*{Rideshare/Transportation Modeling \hfill \normalfont{\textit{October 2019 - December 2022} } }
@@ -117,6 +118,43 @@ pulses of light at a sharp metal alloy tip
 \end{myitemize}
 
 
+\section*{Projects}
+\vspace{-3mm} % Adjust the value as needed to reduce the space above the line
+\hrule
+\vspace{3mm} % Adjust the value as needed to reduce the space above the line
+
+\subsection*{Analyzing Feature Importance for Outperforming the S\&P 500 \hfill \normalfont{\textit{Fall 2019} } }
+
+\begin{myitemize}
+\item Employed various classification methods like Logistic Regression, Support Vector Machine, and k-Nearest Neighbor to analyze the most impactful factors in individual securities' performances outperforming the S\&P 500
+\item Discovered the significance of variable importance across different classification methods and identified key financial indicators such as sector, price to book ratio, EBITDA, and earnings per share as critical determinants of stock performance
+\end{myitemize}
+
+\subsection*{WebCrawler \hfill \normalfont{\textit{Fall 2019} } }
+
+\begin{myitemize}
+\item Wrote Inverted Index program to clean \& parse text into stems, constructing an inverted index of words to their document positions
+\item Developed a WebCrawler which was multithreaded, limited URL parsing, handled HTTP/HTTPS, ensured URL consistency, employed breadth-first search, and avoided reprocessing URLs. 
+\item Combined above projects into a Search Engine capable of finding keywords within Project Gutenberg library as well as New York Times archives and return a rank-ordered the most relevant books/articles
+\end{myitemize}
+
+
+\section*{Awards \& Achievements}
+\vspace{-3mm} % Adjust the value as needed to reduce the space above the line
+\hrule
+\vspace{3mm} % Adjust the value as needed to reduce the space above the line
+
+\begin{myitemize}
+\item \nth{3} Place: USF Computer Science Department Coding Contest \hfill{\textit{Fall 2019} }
+\item Research Presenter: USF Creative Activity and Research Day \hfill{\textit{Fall 2019} }
+\item Scholarship Winner \& Recipient - Battier Take Charge Foundation \hfill{\textit{Fall 2014}}
+\end{myitemize}
+
+\section*{Publications}
+\hrule
+\vspace{6mm} % Adjust the value as needed to reduce the space above the line
+
+\input{publications}
 
 \section*{Relevant Coursework}
 \hrule
@@ -133,10 +171,6 @@ pulses of light at a sharp metal alloy tip
 
 \end{multicols}
 
-\section*{Publications}
-\hrule
-\vspace{6mm} % Adjust the value as needed to reduce the space above the line
 
-\input{publications}
 
 \end{document}
