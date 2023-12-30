@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.12.28)  30 DEC 2023 16:07
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.12.28)  30 DEC 2023 17:00
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -628,13 +628,14 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <6> on input line 78.
 
-Overfull \hbox (5.2284pt too wide) in paragraph at lines 108--109
-[]\OT1/cmr/m/n/10.95 Leveraged a suite of Python li-braries for ro-bust sim-u-l
-a-tion, anal-y-sis, in-clud-ing \OT1/cmtt/m/n/10.95 numpy, pandas,
+Overfull \hbox (5.44087pt too wide) in paragraph at lines 105--106
+[]\OT1/cmr/m/n/10.95 Leveraged a suite of \OT1/cmtt/m/n/10.95 Python \OT1/cmr/m
+/n/10.95 li-braries for ro-bust sim-u-la-tion, anal-y-sis, in-clud-ing \OT1/cmt
+t/m/n/10.95 numpy, pandas,
  []
 
 LaTeX Font Info:    Trying to load font information for U+fontawesometwo on inp
-ut line 115.
+ut line 121.
 (/usr/local/texlive/2023/texmf-dist/tex/latex/fontawesome/ufontawesometwo.fd
 File: ufontawesometwo.fd 2016/05/22 Font definitions for U/fontawesometwo.
 )
@@ -669,16 +670,7 @@ Package fancyhdr Warning: \headheight is too small (26.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-13.84842pt}.
 
-[2]
-
-Package fancyhdr Warning: \headheight is too small (26.0pt): 
-(fancyhdr)                Make it at least 39.84842pt, for example:
-(fancyhdr)                \setlength{\headheight}{39.84842pt}.
-(fancyhdr)                You might also make \topmargin smaller to compensate:
-
-(fancyhdr)                \addtolength{\topmargin}{-13.84842pt}.
-
-[3{/usr/local/texlive/2023/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc
+[2{/usr/local/texlive/2023/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc
 }] (./main.aux)
  ***********
 LaTeX2e <2023-11-01>
@@ -692,16 +684,17 @@ Package logreq Info: Writing requests to 'main.run.xml'.
  ) 
 Here is how much of TeX's memory you used:
  17455 strings out of 474181
- 304470 string characters out of 5745946
+ 304479 string characters out of 5745946
  1944457 words of memory out of 5000000
- 39584 multiletter control sequences out of 15000+600000
- 564145 words of font info for 56 fonts, out of 8000000 for 9000
+ 39585 multiletter control sequences out of 15000+600000
+ 564313 words of font info for 57 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  66i,12n,81p,677b,1285s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/local/texlive/2023/texmf-dist/fonts/type1/public/fontawesome/FontAwesom
 e.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10
 .pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.
 pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmcsc10.
+pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmitt10.
 pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.p
 fb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb
 ></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></
@@ -709,10 +702,10 @@ usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></u
 sr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb></us
 r/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb></usr
 /local/texlive/2023/texmf-dist/fonts/type1/public/cm-super/sfrm1095.pfb>
-Output written on main.pdf (3 pages, 151687 bytes).
+Output written on main.pdf (2 pages, 159669 bytes).
 PDF statistics:
- 112 PDF objects out of 1000 (max. 8388607)
- 84 compressed objects within 1 object stream
- 23 named destinations out of 1000 (max. 500000)
+ 109 PDF objects out of 1000 (max. 8388607)
+ 80 compressed objects within 1 object stream
+ 21 named destinations out of 1000 (max. 500000)
  1 words of extra memory for PDF output out of 10000 (max. 10000000)
 
