@@ -23,8 +23,12 @@
 \pagestyle{fancy}
 \fancyhf{}
 \setlength{\headheight}{26pt} % Make sure this matches the geometry package headheight
-\lhead{Iván Sepúlveda \\ }
-\rhead{+1-714-724-4958 \\ \href{mailto:iesepulveda@outlook.com}{iesepulveda@outlook.com}}
+\lhead{Iván Sepúlveda \\ \href{mailto:iesepulveda@outlook.com}{iesepulveda@outlook.com} \\+1-714-724-4958}
+\rhead{\href{https://github.com/ivan-sepulveda//}{\faGithub\ GitHub} \\ \href{https://www.yourLinkedinProfile.com/in/}{\faLinkedin\ LinkedIn} \\ \ }
+
+
+%%
+
 \lfoot{Lefthand Footer}
 \rfoot{Righthand Footer \\ Righthand Footer cont}
 
@@ -43,8 +47,8 @@
 \begin{document}
 
 
-\section*{Education}
-\vspace{-6.5mm} % Adjust the value as needed to reduce the space above the line
+\section*{\\Education}
+\vspace{-7mm} % Adjust the value as needed to reduce the space above the line
 \noindent\makebox[\linewidth]{\rule{\textwidth}{0.4pt}}
 \textbf{University of San Francisco} \hfill Graduated August 2019 \\
 Bachelor of Science - Physics \hfill GPA: 3.05
@@ -57,20 +61,22 @@ Bachelor of Science - Physics \hfill GPA: 3.05
 \vspace{3mm} % Adjust the value as needed to reduce the space above the line
 
 \subsection*{Solar Mosaic LLC - Oakland, CA \hfill \normalfont{\textit{June 2021 - Present} } }
-
+\vspace{-1.5mm} % Adjust the value as needed to reduce the space above the line
+\textit{Sr. Analyst - Risk Analytics \& Strategy}
+\vspace{-1.5mm} % Adjust the value as needed to reduce the space above the line
 \begin{myitemize}
-\item Identify performance trends, monitor risk KPI’s, and conduct loan-level analysis to isolate causes for variances between risk indicators and expected performance
-\item Establish and maintain a feedback loop with credit policy and operations to enhance credit quality and balance loan origination volumes for a growing portfolio
-\item Manage and support monthly and ad-hoc presentations regarding asset performance
+\item Developed a network analysis project, utilizing IP-address, geographical, and business registration data, to identify risk \& fraud among entities using tools including \texttt{SQL \& Gephi}
+\item Implemented a dynamic scorecard methodology for business-partner risk assessment. Collaborated with team to design daily-updating schema and alert system for high risk partners
+\item Acted as a liaison between Data Engineering and Risk by leading the implementation of data initiatives using \texttt{DBT, Apache Airflow, and Amazon Web Services}
 \end{myitemize}
 
 \subsection*{L-Egant Solutions, LLC - Irvine, CA \hfill \normalfont{\textit{October 2019 - December 2022} } }
-
+\vspace{-1.5mm} % Adjust the value as needed to reduce the space above the line
+\textit{Lead Software Developer}
+\vspace{-1.5mm} % Adjust the value as needed to reduce the space above the line
 \begin{myitemize}
-\item Produced software tools providing real-time video capture/streaming
-\item Created video data transformation utilities (e.g. statistical representations)
-\item Developed methods to analyze, compile, and compare raw image data 
-
+\item Developed scripts for operation and data management of high frame rate digital cameras (triggerable to 40 $\mu$s) capturing light-phase-encoded intensity images from input laser beam
+\item Created software package with Graphic User Interface (GUI) providing real-time video capture/streaming \& data transformation utilities (e.g. statistical representations of pixel intensity distributions, two-dimensional Gaussian characterization, image algebra, etc.)
 \end{myitemize}
 
 \subsection*{Mechanics Bank Auto Finance - Irvine, CA \hfill \normalfont{\textit{June 2021 - Present} } }
@@ -108,7 +114,7 @@ Bachelor of Science - Physics \hfill GPA: 3.05
 \item Built a dynamic model of rideshare prices by day of the week based on Uber data
 \item Integrated real public transit data into model as a consumer option
 \end{myitemize}
-
+%\pagebreak
 \subsection*{Electron Emission Modeling \hfill \normalfont{\textit{June 2021 - Present} } }
 
 \begin{myitemize}
@@ -133,8 +139,8 @@ pulses of light at a sharp metal alloy tip
 \subsection*{WebCrawler \hfill \normalfont{\textit{Fall 2019} } }
 
 \begin{myitemize}
-\item Wrote Inverted Index program to clean \& parse text into stems, constructing an inverted index of words to their document positions
-\item Developed a WebCrawler which was multithreaded, limited URL parsing, handled HTTP/HTTPS, ensured URL consistency, employed breadth-first search, and avoided reprocessing URLs. 
+\item Designed Inverted Index program to clean \& parse text into stems, constructing a custom inverted index data structure of words to their document positions
+\item Developed a multithreaded WebCrawler which limited URL parsing, handled HTTP/HTTPS, ensured URL consistency, employed breadth-first search, and avoided reprocessing URLs. 
 \item Combined above projects into a Search Engine capable of finding keywords within Project Gutenberg library as well as New York Times archives and return a rank-ordered the most relevant books/articles
 \end{myitemize}
 
@@ -151,12 +157,15 @@ pulses of light at a sharp metal alloy tip
 \end{myitemize}
 
 \section*{Publications}
+\vspace{-3mm} % Adjust the value as needed to reduce the space above the line
+
 \hrule
-\vspace{6mm} % Adjust the value as needed to reduce the space above the line
+\vspace{3mm} % Adjust the value as needed to reduce the space above the line
 
 \input{publications}
 
 \section*{Relevant Coursework}
+\vspace{-3mm} % Adjust the value as needed to reduce the space above the line
 \hrule
 
 \begin{multicols}{2}
